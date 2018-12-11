@@ -1,14 +1,16 @@
 ﻿/// <summary>
 /// https://leetcode.com/problems/encode-and-decode-tinyurl/
 /// </summary>
+
+using System.Collections.Generic;
+
 namespace LeetCode.Medium
 {
-    using System.Collections.Generic;
 
     public class EncodeAndDecodeTinyUrl
     {
 
-        private Dictionary<int, string> UrlDictionary = new Dictionary<int, string>();
+        private readonly Dictionary<int, string> UrlDictionary = new Dictionary<int, string>();
         
         // Encodes a URL to a shortened URL
         public string Encode(string longUrl)
