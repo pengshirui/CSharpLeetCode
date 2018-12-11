@@ -1,12 +1,10 @@
-﻿/// <summary>
-/// https://leetcode.com/problems/encode-and-decode-tinyurl/
-/// </summary>
-
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace LeetCode.Medium
 {
-
+    /// <summary>
+    /// https://leetcode.com/problems/encode-and-decode-tinyurl/
+    /// </summary>
     public class EncodeAndDecodeTinyUrl
     {
 
