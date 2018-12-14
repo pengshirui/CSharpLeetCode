@@ -1,9 +1,11 @@
-﻿namespace LeetCode.Medium
+﻿/// <summary>
+/// https://leetcode.com/problems/number-of-islands/
+/// </summary>
+
+namespace LeetCode.Medium
 {
-    /// <summary>
-    /// https://leetcode.com/problems/number-of-islands/
-    /// </summary>
-    public class NumberOfIslands
+
+    public partial class Solution
     {
         public int NumIslands(char[,] grid)
         {

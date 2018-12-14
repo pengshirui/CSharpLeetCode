@@ -4,7 +4,7 @@ using Xunit;
 
 namespace UnitTest.Medium
 {
-    public class NumberOfIslandsTests
+    public class NumIslandsTest
     {
         [Fact]
         public void Test1()
@@ -12,7 +12,7 @@ namespace UnitTest.Medium
             var grid1 = new char[,]{ { '1', '0', '0' }, { '1', '1', '0' }, { '0', '0', '1' } };
             var grid2 = new char[,] { { '1', '1', '0', '0', '0' }, { '1', '1', '0', '0', '0' },{ '0', '0', '1', '0', '0' },{ '0', '0', '0', '1', '1' } };
 
-            var numberOfIslands = new NumberOfIslands();
+            var numberOfIslands = new Solution();
 
             var num1 = numberOfIslands.NumIslands(grid1);
             var num2 = numberOfIslands.NumIslands(grid2);
