@@ -42,7 +42,7 @@ namespace LeetCode.Medium
     {
         public int Get(int k)
         {
-            return base.TryGetValue(k, out int v) ? v : 0;
+            return TryGetValue(k, out int v) ? v : 0;
         }
 
         public void Increament(int k, int v)
@@ -50,6 +50,9 @@ namespace LeetCode.Medium
             if (TryGetValue(k, out int value))
             {
                 base[k] = value + v;
+            } else
+            {
+                Add(k, v);
             }
         }
     }
