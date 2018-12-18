@@ -29,7 +29,5 @@
 
             res.Should().Equal(new int[] { 28, 45 });
         }
-
-        
     }
 }
