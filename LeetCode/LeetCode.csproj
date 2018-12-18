@@ -4,10 +4,4 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Reference Include="FdcDatabase">
-      <HintPath>..\..\..\Desktop\FdcDatabase.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-
 </Project>
