@@ -1,8 +1,7 @@
 ﻿/// <summary>
 /// https://leetcode.com/problems/backspace-string-compare
 /// </summary>
-
-namespace LeetCode.Medium
+namespace LeetCode.Easy
 {
     public partial class Solution
     {

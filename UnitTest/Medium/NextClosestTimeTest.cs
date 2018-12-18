@@ -1,12 +1,9 @@
-﻿using FluentAssertions;
-using LeetCode.Medium;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using Xunit;
-
-namespace UnitTest.Medium
+﻿namespace UnitTest.Medium
 {
+    using FluentAssertions;
+    using LeetCode.Medium;
+    using Xunit;
+
     public class NextClosestTimeTest
     {
         [Fact]

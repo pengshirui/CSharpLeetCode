@@ -1,7 +1,6 @@
 ﻿/// <summary>
 /// https://leetcode.com/problems/number-of-islands/
 /// </summary>
-
 namespace LeetCode.Medium
 {
 

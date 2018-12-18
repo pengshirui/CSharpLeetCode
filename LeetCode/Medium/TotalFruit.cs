@@ -1,12 +1,11 @@
 ﻿/// <summary>
 /// https://leetcode.com/problems/fruit-into-baskets
 /// </summary>
-
-using System;
-using System.Collections.Generic;
-
 namespace LeetCode.Medium
 {
+    using System;
+    using System.Collections.Generic;
+
     public partial class Solution
     {
         public int TotalFruit(int[] tree)

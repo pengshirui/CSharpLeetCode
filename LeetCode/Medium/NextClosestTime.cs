@@ -1,13 +1,11 @@
 ﻿/// <summary>
 /// https://leetcode.com/problems/next-closest-time/
 /// </summary>
-
-using System;
-using System.Collections.Generic;
-using System.Text;
-
 namespace LeetCode.Medium
 {
+    using System;
+    using System.Collections.Generic;
+
     public partial class Solution
     {
         public string NextClosestTime(string time)
