@@ -1,8 +1,10 @@
-﻿namespace UnitTest.Medium
+﻿using FluentAssertions;
+using LeetCode.Medium;
+using Xunit;
+
+namespace UnitTest.Medium
 {
-    using FluentAssertions;
-    using LeetCode.Medium;
-    using Xunit;
+
     public class NumIslandsTest
     {
         [Fact]

@@ -1,10 +1,12 @@
 ﻿/// <summary>
 /// https://leetcode.com/problems/bulls-and-cows/
 /// </summary>
+
+using System;
+using System.Collections.Generic;
+
 namespace LeetCode.Medium
 {
-    using System;
-    using System.Collections.Generic;
     public partial class Solution
     {
         public string GetHint(string secret, string guess)

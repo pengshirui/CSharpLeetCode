@@ -1,9 +1,9 @@
-﻿namespace UnitTest.Easy
-{
-    using FluentAssertions;
-    using LeetCode.Easy;
-    using Xunit;
+﻿using FluentAssertions;
+using LeetCode.Easy;
+using Xunit;
 
+namespace UnitTest.Easy
+{
     public class TwoSumTest
     {
         [Fact]

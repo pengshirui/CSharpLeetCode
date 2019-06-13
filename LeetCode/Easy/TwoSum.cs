@@ -1,10 +1,11 @@
 ﻿/// <summary>
 /// https://leetcode.com/problems/two-sum
 /// </summary>
+
+using System.Collections.Generic;
+
 namespace LeetCode.Easy
 {
-    using System.Collections.Generic;
-
     public partial class Solution
     {
         public int[] TwoSum(int[] nums, int target)

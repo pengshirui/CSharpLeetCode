@@ -1,7 +1,7 @@
-﻿namespace LeetCode.Medium
-{
-    using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
+namespace LeetCode.Medium
+{
     public partial class Solution
     {
         public double[] CalcEquation(string[,] equations, double[] values, string[,] queries)

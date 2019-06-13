@@ -3,7 +3,6 @@
 /// </summary>
 namespace LeetCode.Medium
 {
-
     public partial class Solution
     {
         public int NumIslands(char[,] grid)
