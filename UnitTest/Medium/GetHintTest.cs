@@ -6,6 +6,7 @@ namespace UnitTest.Medium
 {
     public class GetHintTest
     {
+        
         [Fact]
         public void Test1()
         {
