@@ -8,8 +8,12 @@ namespace LeetCode.Easy
 {
     public partial class Solution
     {
+        // return index of two numbers
         public int[] TwoSum(int[] nums, int target)
         {
+            // Dictionary<Value in difference, CurrentIndex>
+            // [1, 4] target = 5
+            // <4, 0>
             var dictionary = new Dictionary<int, int>();
             for (var i = 0; i < nums.Length; i++)
             {
