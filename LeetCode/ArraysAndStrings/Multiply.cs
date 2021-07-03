@@ -6,13 +6,11 @@ namespace LeetCode.ArraysAndStrings
 {
     public partial class Solution
     {
-		readonly string ZeroStr = "0";
-        readonly char ZeroChar = '0';
         public string Multiply(string num1, string num2)
         {
-            if (num1 == ZeroStr || num2 == ZeroStr)
+            if (num1 == Constants.Constants.ZeroStr || num2 == Constants.Constants.ZeroStr)
             {
-                return ZeroStr;
+                return Constants.Constants.ZeroStr;
             }
             
             var list = new int[num1.Length + num2.Length];
@@ -22,7 +20,7 @@ namespace LeetCode.ArraysAndStrings
                 // j index of num2
                 for (var j = 0; j < num2.Length; j++)
                 {
-                    var sum = (num1[num1.Length - i - 1] - ZeroChar) * (num2[num2.Length - j - 1] - ZeroChar) + list[i + j];
+                    var sum = (num1[num1.Length - i - 1] - Constants.Constants.ZeroChar) * (num2[num2.Length - j - 1] - Constants.Constants.ZeroChar) + list[i + j];
                     var remainder = sum % 10;
                     var carry = sum / 10;
                     if (carry > 0)
