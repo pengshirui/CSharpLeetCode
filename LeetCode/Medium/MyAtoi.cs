@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace LeetCode.ArraysAndStrings
+namespace LeetCode.Medium
 {
 	public partial class Solution
 	{

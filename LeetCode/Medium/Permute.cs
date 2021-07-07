@@ -28,12 +28,5 @@ namespace LeetCode.Medium
                 Swap(nums, first, i);
             }
         }
-
-        void Swap(int[] nums, int x, int y)
-        {
-            var tmp = nums[x];
-            nums[x] = nums[y];
-            nums[y] = tmp;
-        }
     }
 }

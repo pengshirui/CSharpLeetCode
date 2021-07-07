@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace LeetCode.ArraysAndStrings
+namespace LeetCode.Medium
 {
     public partial class Solution
     {
@@ -39,11 +39,5 @@ namespace LeetCode.ArraysAndStrings
 
         }
 
-        private void Swap(int[] nums, int i, int j)
-        {
-            var t = nums[i];
-            nums[i] = nums[j];
-            nums[j] = t;
-        }
     }
 }

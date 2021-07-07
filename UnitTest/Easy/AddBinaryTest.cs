@@ -1,8 +1,8 @@
 ﻿using FluentAssertions;
-using LeetCode.ArraysAndStrings;
+using LeetCode.Easy;
 using Xunit;
 
-namespace UnitTest.ArraysAndStrings
+namespace UnitTest.Easy
 {
 	public class AddBinaryTest
 	{

@@ -1,11 +1,11 @@
 ﻿using FluentAssertions;
-using LeetCode.ArraysAndStrings;
+using LeetCode.Easy;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using Xunit;
 
-namespace UnitTest.ArraysAndStrings
+namespace UnitTest.Easy
 {
 	public class RomanToIntTest
 	{

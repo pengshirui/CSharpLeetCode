@@ -1,8 +1,8 @@
 ﻿using FluentAssertions;
-using LeetCode.ArraysAndStrings;
+using LeetCode.Medium;
 using Xunit;
 
-namespace UnitTest.ArraysAndStrings
+namespace UnitTest.Medium
 {
 	public class LengthOfLongestSubstringTest
 	{

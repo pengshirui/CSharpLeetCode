@@ -1,11 +1,11 @@
 ﻿using FluentAssertions;
-using LeetCode.ArraysAndStrings;
+using LeetCode.Medium;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using Xunit;
 
-namespace UnitTest.ArraysAndStrings
+namespace UnitTest.Medium
 {
 	public class NextPermutationTest
 	{
