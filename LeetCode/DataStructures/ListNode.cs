@@ -14,7 +14,7 @@ namespace LeetCode.DataStructures
             this.next = next;
         }
 
-        public static ListNode GetListNode(int[] list)
+        public static ListNode GetListNode(params int[] list)
         {
             return GetListNode(list, 0);
         }

@@ -4,6 +4,19 @@ namespace LeetCode.Medium
 {
     public partial class Solution
     {
+        private class Node
+        {
+            public string Value { get; set; }
+
+            public readonly Dictionary<Node, double> Nodes;
+
+            public Node(string value)
+            {
+                this.Value = value;
+                this.Nodes = new Dictionary<Node, double>();
+            }
+        }
+
         public double[] CalcEquation(string[,] equations, double[] values, string[,] queries)
         {
             var graph = BuildGraph(equations, values);
@@ -90,18 +103,4 @@ namespace LeetCode.Medium
             return graph;
         }
     }
-
-    class Node
-    {
-        public string Value { get; set; }
-
-        public readonly Dictionary<Node, double> Nodes;
-
-        public Node(string value)
-        {
-            this.Value = value;
-            this.Nodes = new Dictionary<Node, double>();
-        }
-    }
-
 }
