@@ -21,11 +21,10 @@ namespace UnitTest.Medium
             var r1 = ListNode.GetListNode(7, 0, 8);
             var r2 = ListNode.GetListNode(0);
             var r3 = ListNode.GetListNode(8, 9, 9, 9, 0, 0, 0, 1);
-            /*
+
             solution.AddTwoNumbers(l1, l2).Should().BeEquivalentTo(r1);
             solution.AddTwoNumbers(l3, l4).Should().BeEquivalentTo(r2);
             solution.AddTwoNumbers(l5, l6).Should().BeEquivalentTo(r3);
-            */
             solution.AddTwoNumbersRecursive(l1, l2).Should().BeEquivalentTo(r1);
             solution.AddTwoNumbersRecursive(l3, l4).Should().BeEquivalentTo(r2);
             solution.AddTwoNumbersRecursive(l5, l6).Should().BeEquivalentTo(r3);
