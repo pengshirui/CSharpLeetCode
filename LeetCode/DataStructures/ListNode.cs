@@ -21,14 +21,12 @@ namespace LeetCode.DataStructures
 
         private static ListNode GetListNode(int[] list, int index) 
         {
-
             if (index == list.Length)
             {
                 return null;
             }
             var next = ListNode.GetListNode(list, index + 1);
             return new ListNode(list[index], next);
-
         }
     }
 }
